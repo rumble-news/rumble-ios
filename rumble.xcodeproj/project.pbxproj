@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D9EF2FF1D456DC20023406D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EF2FE1D456DC20023406D /* AppDelegate.swift */; };
+		6D9EF3011D456DC20023406D /* ArticleFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EF3001D456DC20023406D /* ArticleFeedViewController.swift */; };
+		6D9EF3031D456DC20023406D /* RumbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EF3021D456DC20023406D /* RumbleViewController.swift */; };
+		6D9EF3061D456DC20023406D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D9EF3041D456DC20023406D /* Main.storyboard */; };
+		6D9EF3081D456DC20023406D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D9EF3071D456DC20023406D /* Assets.xcassets */; };
+		6D9EF30B1D456DC20023406D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D9EF3091D456DC20023406D /* LaunchScreen.storyboard */; };
+		6D9EF3131D4570F40023406D /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EF3121D4570F40023406D /* RegistrationViewController.swift */; };
+		6D9EF3151D4574710023406D /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EF3141D4574710023406D /* NotificationsViewController.swift */; };
+		6D9EF3171D4574FD0023406D /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EF3161D4574FD0023406D /* AccountViewController.swift */; };
+		6DDB360D1D45828200EFE9A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDB360C1D45828200EFE9A0 /* LoginViewController.swift */; };
+		DE63ECC39E719703EED87729 /* Pods_rumble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DE90C8D1740B85BDBD5983 /* Pods_rumble.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67DE90C8D1740B85BDBD5983 /* Pods_rumble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rumble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D9EF2FB1D456DC20023406D /* rumble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rumble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D9EF2FE1D456DC20023406D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D9EF3001D456DC20023406D /* ArticleFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleFeedViewController.swift; sourceTree = "<group>"; };
+		6D9EF3021D456DC20023406D /* RumbleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumbleViewController.swift; sourceTree = "<group>"; };
+		6D9EF3051D456DC20023406D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D9EF3071D456DC20023406D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D9EF30A1D456DC20023406D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D9EF30C1D456DC20023406D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D9EF3121D4570F40023406D /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		6D9EF3141D4574710023406D /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		6D9EF3161D4574FD0023406D /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		6DDB360C1D45828200EFE9A0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		74C6B7473009EF060A257083 /* Pods-rumble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rumble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rumble/Pods-rumble.debug.xcconfig"; sourceTree = "<group>"; };
+		B143E07FF8BB020481F74B57 /* Pods-rumble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rumble.release.xcconfig"; path = "Pods/Target Support Files/Pods-rumble/Pods-rumble.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D9EF2F81D456DC20023406D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE63ECC39E719703EED87729 /* Pods_rumble.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D9EF2F21D456DC20023406D = {
+			isa = PBXGroup;
+			children = (
+				6D9EF2FD1D456DC20023406D /* rumble */,
+				6D9EF2FC1D456DC20023406D /* Products */,
+				B1EAAEA8771CFE6D88D47D0A /* Pods */,
+				E941E99F306191DFA2B15F45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D9EF2FC1D456DC20023406D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D9EF2FB1D456DC20023406D /* rumble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D9EF2FD1D456DC20023406D /* rumble */ = {
+			isa = PBXGroup;
+			children = (
+				6D9EF2FE1D456DC20023406D /* AppDelegate.swift */,
+				6D9EF3001D456DC20023406D /* ArticleFeedViewController.swift */,
+				6D9EF3121D4570F40023406D /* RegistrationViewController.swift */,
+				6DDB360C1D45828200EFE9A0 /* LoginViewController.swift */,
+				6D9EF3021D456DC20023406D /* RumbleViewController.swift */,
+				6D9EF3141D4574710023406D /* NotificationsViewController.swift */,
+				6D9EF3161D4574FD0023406D /* AccountViewController.swift */,
+				6D9EF3041D456DC20023406D /* Main.storyboard */,
+				6D9EF3071D456DC20023406D /* Assets.xcassets */,
+				6D9EF3091D456DC20023406D /* LaunchScreen.storyboard */,
+				6D9EF30C1D456DC20023406D /* Info.plist */,
+			);
+			path = rumble;
+			sourceTree = "<group>";
+		};
+		B1EAAEA8771CFE6D88D47D0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74C6B7473009EF060A257083 /* Pods-rumble.debug.xcconfig */,
+				B143E07FF8BB020481F74B57 /* Pods-rumble.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E941E99F306191DFA2B15F45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67DE90C8D1740B85BDBD5983 /* Pods_rumble.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D9EF2FA1D456DC20023406D /* rumble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D9EF30F1D456DC20023406D /* Build configuration list for PBXNativeTarget "rumble" */;
+			buildPhases = (
+				C20D35EE7F2C692AC0DC9C29 /* [CP] Check Pods Manifest.lock */,
+				6D9EF2F71D456DC20023406D /* Sources */,
+				6D9EF2F81D456DC20023406D /* Frameworks */,
+				6D9EF2F91D456DC20023406D /* Resources */,
+				98BB725CEFC35B4D339C04D5 /* [CP] Embed Pods Frameworks */,
+				C3F1125663684D55D083648C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rumble;
+			productName = rumble;
+			productReference = 6D9EF2FB1D456DC20023406D /* rumble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D9EF2F31D456DC20023406D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jacqueline Sloves";
+				TargetAttributes = {
+					6D9EF2FA1D456DC20023406D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 6D9EF2F61D456DC20023406D /* Build configuration list for PBXProject "rumble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D9EF2F21D456DC20023406D;
+			productRefGroup = 6D9EF2FC1D456DC20023406D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D9EF2FA1D456DC20023406D /* rumble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D9EF2F91D456DC20023406D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9EF30B1D456DC20023406D /* LaunchScreen.storyboard in Resources */,
+				6D9EF3081D456DC20023406D /* Assets.xcassets in Resources */,
+				6D9EF3061D456DC20023406D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98BB725CEFC35B4D339C04D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rumble/Pods-rumble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C20D35EE7F2C692AC0DC9C29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F1125663684D55D083648C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rumble/Pods-rumble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D9EF2F71D456DC20023406D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9EF3151D4574710023406D /* NotificationsViewController.swift in Sources */,
+				6D9EF3131D4570F40023406D /* RegistrationViewController.swift in Sources */,
+				6D9EF3171D4574FD0023406D /* AccountViewController.swift in Sources */,
+				6D9EF3031D456DC20023406D /* RumbleViewController.swift in Sources */,
+				6DDB360D1D45828200EFE9A0 /* LoginViewController.swift in Sources */,
+				6D9EF2FF1D456DC20023406D /* AppDelegate.swift in Sources */,
+				6D9EF3011D456DC20023406D /* ArticleFeedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D9EF3041D456DC20023406D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D9EF3051D456DC20023406D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D9EF3091D456DC20023406D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D9EF30A1D456DC20023406D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D9EF30D1D456DC20023406D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D9EF30E1D456DC20023406D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D9EF3101D456DC20023406D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C6B7473009EF060A257083 /* Pods-rumble.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rumble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsloves.rumble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D9EF3111D456DC20023406D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B143E07FF8BB020481F74B57 /* Pods-rumble.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rumble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsloves.rumble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D9EF2F61D456DC20023406D /* Build configuration list for PBXProject "rumble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D9EF30D1D456DC20023406D /* Debug */,
+				6D9EF30E1D456DC20023406D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D9EF30F1D456DC20023406D /* Build configuration list for PBXNativeTarget "rumble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D9EF3101D456DC20023406D /* Debug */,
+				6D9EF3111D456DC20023406D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D9EF2F31D456DC20023406D /* Project object */;
+}
