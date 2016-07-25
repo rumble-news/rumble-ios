@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "640EF51B1A5284CC582493678F195813ABD295D7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "640EF51B1A5284CC582493678F195813ABD295D7" : 0,
+    "C3053449DE0191BA9871F3C8AD588EE787E72EA6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ABCD1909-2CB6-411C-A05C-8A5934F17A22",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "640EF51B1A5284CC582493678F195813ABD295D7" : "rumble-ios\/",
+    "C3053449DE0191BA9871F3C8AD588EE787E72EA6" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "rumble",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "rumble.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rumble-news\/rumble-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "640EF51B1A5284CC582493678F195813ABD295D7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:rumble-news\/rumble-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3053449DE0191BA9871F3C8AD588EE787E72EA6"
+    }
+  ]
+}
