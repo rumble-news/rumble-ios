@@ -12,7 +12,8 @@ class ArticleFeedViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // TODO: HTTP Request   
+        self.setupRumbleHeader()        
     }
 
     override func didReceiveMemoryWarning() {

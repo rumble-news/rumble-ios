@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uCo-4o-gXp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -40,11 +40,11 @@
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="first" id="acW-dT-cKf" userLabel="Home"/>
+                    <navigationItem key="navigationItem" id="WhE-sJ-mQx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="1496" y="-376"/>
         </scene>
         <!--RumbleViewController-->
         <scene sceneID="wg7-f3-ORb">
@@ -59,7 +59,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Rumble VC" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="207.5" y="279" width="184.5" height="42"/>
+                                <rect key="frame" x="208" y="279" width="184" height="42"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -80,11 +80,11 @@
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Rumble" image="second" id="cPa-gy-q4n" userLabel="Rumble"/>
+                    <navigationItem key="navigationItem" id="NBh-CV-dog"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="1514" y="336"/>
         </scene>
         <!--NotificationsViewController-->
         <scene sceneID="MuA-Ap-DEr">
@@ -99,13 +99,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Notifications VC" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="0cy-l8-0bq">
-                                <rect key="frame" x="171.5" y="279" width="257" height="42"/>
+                                <rect key="frame" x="172" y="279" width="257" height="42"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by NotificationsVC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVr-pg-0H4">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Loaded by NotificationsVC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVr-pg-0H4">
                                 <rect key="frame" x="214" y="329" width="171" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -120,11 +120,11 @@
                             <constraint firstItem="AVr-pg-0H4" firstAttribute="top" secondItem="0cy-l8-0bq" secondAttribute="bottom" constant="8" symbolic="YES" id="wnm-7S-8oy"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Notifications" image="first" id="jbO-SQ-lWV"/>
+                    <navigationItem key="navigationItem" id="zpP-mZ-coE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bJ8-YJ-afd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="1016"/>
+            <point key="canvasLocation" x="1514" y="1016"/>
         </scene>
         <!--AccountViewController-->
         <scene sceneID="Rad-J0-8xJ">
@@ -139,14 +139,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Accounts VC" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="td3-Rf-NHo">
-                                <rect key="frame" x="195.5" y="279" width="209" height="42"/>
+                                <rect key="frame" x="196" y="279" width="209" height="42"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by AccountsVC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kk1-h8-Lvd">
-                                <rect key="frame" x="224.5" y="329" width="150" height="17"/>
+                                <rect key="frame" x="225" y="329" width="150" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -160,11 +160,11 @@
                             <constraint firstItem="td3-Rf-NHo" firstAttribute="centerY" secondItem="JaD-yz-ILv" secondAttribute="centerY" id="kei-I7-xkm"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Account" image="second" id="5qe-YL-5cC"/>
+                    <navigationItem key="navigationItem" id="QCN-gZ-dfG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Emn-H5-J5F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="1680"/>
+            <point key="canvasLocation" x="1514" y="1680"/>
         </scene>
         <!--LoginViewController-->
         <scene sceneID="20h-bC-juC">
@@ -257,6 +257,7 @@
                             <constraint firstItem="v2Q-JM-5xD" firstAttribute="centerX" secondItem="2lr-MX-AOj" secondAttribute="centerX" id="ule-Xa-k8y"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="tgZ-aA-17f"/>
                     <connections>
                         <outlet property="passwordField" destination="Px4-C5-k59" id="hDk-96-xCQ"/>
                         <outlet property="spinner" destination="Kfa-6o-Prd" id="s2W-dq-yPT"/>
@@ -268,10 +269,10 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="-689"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController id="49e-Tb-3d3" customClass="TabBarViewController" customModule="rumble" customModuleProvider="target" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
@@ -279,15 +280,15 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="MzS-u4-cbr" kind="relationship" relationship="viewControllers" id="JDz-hR-Lpi"/>
-                        <segue destination="ETl-Xk-ahC" kind="relationship" relationship="viewControllers" id="Nnq-w3-cbw"/>
+                        <segue destination="YXm-Eu-pk4" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="slI-tM-U8c" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="yja-nE-rL5" kind="relationship" relationship="viewControllers" id="JDz-hR-Lpi"/>
+                        <segue destination="yEF-t4-7tX" kind="relationship" relationship="viewControllers" id="Nnq-w3-cbw"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-356" y="616"/>
         </scene>
         <!--RegistrationViewController-->
         <scene sceneID="Kp8-lJ-Hcn">
@@ -374,12 +375,88 @@
                         <outlet property="passwordField" destination="80j-ZS-ZMZ" id="QW0-4B-TOi"/>
                         <outlet property="spinner" destination="BAu-fF-Qqn" id="vbO-5g-bgi"/>
                         <outlet property="usernameField" destination="dw9-4o-Nf1" id="1ru-X6-7o6"/>
-                        <segue destination="9pv-A4-QxB" kind="presentation" identifier="registrationToArticleFeedSegue" id="zHz-m3-PWS"/>
+                        <segue destination="YXm-Eu-pk4" kind="presentation" identifier="registrationToArticleFeedSegue" id="zHz-m3-PWS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k3D-0z-JTe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-5" y="-1385"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="bGJ-Z7-KXu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YXm-Eu-pk4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="first" id="acW-dT-cKf" userLabel="Home"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="e3n-cD-kYd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="EmY-su-i65"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fpy-h9-Fag" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="740" y="-376"/>
+        </scene>
+        <!--Rumble-->
+        <scene sceneID="Iuo-QD-5RU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="slI-tM-U8c" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Rumble" image="second" id="cPa-gy-q4n" userLabel="Rumble"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zI6-vi-Mz9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="7r2-rm-YgD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WCS-Ip-Rah" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="740" y="336"/>
+        </scene>
+        <!--Notifications-->
+        <scene sceneID="BLk-hq-1rU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yja-nE-rL5" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Notifications" image="first" id="jbO-SQ-lWV"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zxv-WM-j5k">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MzS-u4-cbr" kind="relationship" relationship="rootViewController" id="9lE-Cj-eEw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t5Y-R7-Cy9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="1016"/>
+        </scene>
+        <!--Account-->
+        <scene sceneID="aE7-7q-CsN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yEF-t4-7tX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Account" image="second" id="5qe-YL-5cC"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ova-Sr-CQN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ETl-Xk-ahC" kind="relationship" relationship="rootViewController" id="ySI-ds-fs9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="seI-wi-5w9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="1680"/>
         </scene>
     </scenes>
     <resources>
@@ -387,6 +464,6 @@
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="zHz-m3-PWS"/>
+        <segue reference="u7Y-xg-7CH"/>
     </inferredMetricsTieBreakers>
 </document>

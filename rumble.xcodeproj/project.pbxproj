@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D107E361D54314A0052C226 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D107E351D54314A0052C226 /* Constants.swift */; };
+		6D9868D61D54502D00648423 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9868D51D54502D00648423 /* Extensions.swift */; };
 		6D9EF2FF1D456DC20023406D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EF2FE1D456DC20023406D /* AppDelegate.swift */; };
 		6D9EF3011D456DC20023406D /* ArticleFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EF3001D456DC20023406D /* ArticleFeedViewController.swift */; };
 		6D9EF3031D456DC20023406D /* RumbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9EF3021D456DC20023406D /* RumbleViewController.swift */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		67DE90C8D1740B85BDBD5983 /* Pods_rumble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rumble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D107E351D54314A0052C226 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6D9868D51D54502D00648423 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6D9EF2FB1D456DC20023406D /* rumble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rumble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D9EF2FE1D456DC20023406D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D9EF3001D456DC20023406D /* ArticleFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleFeedViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +54,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D9868D81D545FD500648423 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6D107E351D54314A0052C226 /* Constants.swift */,
+				6D9868D51D54502D00648423 /* Extensions.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		6D9868D91D545FEC00648423 /* StyledViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = StyledViews;
+			sourceTree = "<group>";
+		};
+		6D9868DA1D54600C00648423 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6DDB360C1D45828200EFE9A0 /* LoginViewController.swift */,
+				6D9EF3121D4570F40023406D /* RegistrationViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 		6D9EF2F21D456DC20023406D = {
 			isa = PBXGroup;
 			children = (
@@ -71,16 +100,17 @@
 		6D9EF2FD1D456DC20023406D /* rumble */ = {
 			isa = PBXGroup;
 			children = (
+				6D9868DA1D54600C00648423 /* Login */,
+				6D9868D91D545FEC00648423 /* StyledViews */,
+				6D9868D81D545FD500648423 /* Helpers */,
 				6D9EF2FE1D456DC20023406D /* AppDelegate.swift */,
 				6D9EF3001D456DC20023406D /* ArticleFeedViewController.swift */,
-				6D9EF3121D4570F40023406D /* RegistrationViewController.swift */,
-				6DDB360C1D45828200EFE9A0 /* LoginViewController.swift */,
 				6D9EF3021D456DC20023406D /* RumbleViewController.swift */,
 				6D9EF3141D4574710023406D /* NotificationsViewController.swift */,
 				6D9EF3161D4574FD0023406D /* AccountViewController.swift */,
 				6D9EF3041D456DC20023406D /* Main.storyboard */,
-				6D9EF3071D456DC20023406D /* Assets.xcassets */,
 				6D9EF3091D456DC20023406D /* LaunchScreen.storyboard */,
+				6D9EF3071D456DC20023406D /* Assets.xcassets */,
 				6D9EF30C1D456DC20023406D /* Info.plist */,
 			);
 			path = rumble;
@@ -232,6 +262,8 @@
 				6DDB360D1D45828200EFE9A0 /* LoginViewController.swift in Sources */,
 				6D9EF2FF1D456DC20023406D /* AppDelegate.swift in Sources */,
 				6D9EF3011D456DC20023406D /* ArticleFeedViewController.swift in Sources */,
+				6D107E361D54314A0052C226 /* Constants.swift in Sources */,
+				6D9868D61D54502D00648423 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
