@@ -10,9 +10,15 @@ import UIKit
 
 class AccountViewController: UIViewController {
     
+    let screenSize = UIScreen.mainScreen().bounds
+    
+    @IBOutlet weak var halfWidthContainerView: NSLayoutConstraint!
+    
+    @IBOutlet weak var headerUnderline: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupViewLayout()
         self.setupRumbleHeader()
     }
     
@@ -21,5 +27,11 @@ class AccountViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func setupViewLayout(){
+        let screenWidth = self.screenSize.width
+        halfWidthContainerView.constant = screenWidth * 0.5
+        
+    
+    }
     
 }
